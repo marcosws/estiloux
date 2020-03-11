@@ -1,0 +1,139 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap'); */
+
+@import url('../fonts/Nova_Mono/NovaMono-Regular.ttf');
+/* @import url('../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf'); */
+
+/* Reset de página/propiedade */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #ebebeb;
+    /* font-family: sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Raleway', cursive;  */
+    /* font-family: 'Trade Winds', cursive; */
+    font-family: 'Nova Mono', monospace; 
+    /* font-family: 'Major Mono Display', monospace; */
+
+
+
+
+    font-weight: 100;
+    color:#858585;
+}
+#cabecalho{
+    background-color: grey;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h1{
+    display: inline-block;                 
+    width: 15%;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#menu{
+    width: 80%;
+    text-align: right;
+    display:inline-block;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+}
+#corpo-documento{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+#conteudo{
+    display: inline-block;
+    margin-right: -6px;
+    width: 70%;
+    background-color: white;
+    vertical-align: top;
+}
+#conteudo h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#conteudo p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+#barra-lateral{
+    display: inline-block;
+    margin-right: -6px;
+    margin-left: 3%;
+    width: 27%;
+    /* background-color: salmon; */
+    vertical-align: top;
+}
+#lapis{
+    width: 100%;
+}
+.box-side{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.box-side h3{
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 10px;
+    scroll-padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.box-side input{
+    height: 40px;
+    margin-left: 10px;
+    width: 65%; /* width: 130px */
+    border: 1px solid #ebebeb;
+}
+.box-side button {
+    width: 65px;
+    height: 40px;
+    margin-left: 7px;
+    background-color: #727272;
+    color: white;
+    border: 1px solid #ebebeb;
+}
+.box-side ul li{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box-side p{
+    /* border: 1px solid purple; */
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box-side #email-novidade{
+    width: 100%;
+    margin-left: 0;
+}
